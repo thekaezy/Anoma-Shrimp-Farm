@@ -64,23 +64,32 @@ Framer Motion (optional) – For animations and ticker scrolling.
 Vercel / Base44 – Deployment platform.
 
 📂 Project Structure
-├── pages
-│   ├── index.js           # Home page
-│   ├── meme-economy.js    # Meme Economy page
-│   ├── marketplace.js     # Cursed Marketplace
-│   ├── asmr.js            # Shrimp ASMR
-│   └── submit.js          # Submit Meme/Personality
+
+Anoma-Upward-Simulator/
 │
-├── components
-│   ├── TickerBar.js       # Horizontal market ticker
-│   ├── MemeCard.js        # Meme display card
-│   ├── PersonalityCard.js # Shrimp personality card
-│   └── UploadForm.js      # File upload form
+├── Pages/                # Main application pages
+│   ├── Dashboard/        # Entry page with overview & comparison
+│   ├── Simulator/        # Interactive transaction simulator
+│   └── Analytics/        # Metrics & charts
 │
-├── public                 # Static assets (images, icons)
-├── styles
-│   └── globals.css        # Tailwind setup
-└── README.md
+├── Components/           # Reusable UI components
+│   ├── dashboard/        
+│   │   ├── HeroBanner/            # Landing hero section
+│   │   ├── SuperconductivityDemo/ # Visual demo of instant settlement
+│   │   └── ComparisonTable/       # TradFi vs Anoma table
+│   │
+│   ├── simulator/
+│   │   └── TransactionSimulator/  # Side-by-side simulation logic
+│   │
+│   └── analytics/
+│       └── MetricsGrid/           # Metrics & charts display
+│
+├── Entities/
+│   └── Transaction/      # Transaction data model
+│
+├── Layout.js             # Global app layout & styling
+└── README.md             # Project documentation
+
 
 🌟 Why Shrimp Farm?
 
