@@ -3,8 +3,6 @@
 Anoma Shrimp Farm is a fun, chaotic, and cursed web experience built with Next.js + Tailwind CSS.
 It blends memes, markets, cursed shrimp personalities, and ASMR into one interactive playground.
 
-Live Demo: https://anoma-shrimp-farm.vercel.app/
-
 Features :
 
 🏠Home Page
